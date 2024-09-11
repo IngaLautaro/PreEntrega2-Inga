@@ -5,7 +5,7 @@ function obtenerProducto() {
 
 function obtenerPrecio(producto) {
     let precio = prompt("Ingresa el precio de " + producto + ":");
-    while (isNaN(precio) || Number(precio) <= 0) {
+    while (isNaN(precio), Number(precio) <= 0) {
         precio = prompt("Precio inválido. Ingresa el precio de " + producto + ":");
     }
     return Number(precio);
